@@ -12,4 +12,4 @@ carbonnow==0.0.1
 Pillow>=4.2.0
 aiofiles
 setuptools>=65.5.1
-dnspython==2.4.2
+dnspython==1.16.0
