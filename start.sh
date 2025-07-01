@@ -9,6 +9,7 @@ else
 fi
 cd Alexa-V2
 pip install setuptools==65.5.1
+pip install dnspython==2.4.2
 pip install -U -r requirements.txt
 echo "Starting Alexa-v2....🔥"
 python bot.py
