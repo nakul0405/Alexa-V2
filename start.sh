@@ -25,7 +25,7 @@ pip install -U -r requirements.txt
 
 # Run bot
 echo "Starting Alexa-v2....🔥"
-python3 bot.py
+python bot.py
 
 # Install all other requirements
 pip install -U -r requirements.txt
@@ -34,4 +34,4 @@ pip install -U -r requirements.txt
 export PYROGRAM_TIME_FIX=1
 
 echo "Starting Alexa-v2....🔥"
-python3 bot.py
+python bot.py
