@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Fix timezone (msg_id sync)
-export TZ=IST
+export TZ=Asia/Kolkata
 date
 
 # Optional: try time sync (only if Render allows)
