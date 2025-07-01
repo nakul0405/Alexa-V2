@@ -10,4 +10,4 @@ fi
 cd Alexa-V2
 pip3 install -U -r requirements.txt
 echo "Starting Alexa-v2....🔥"
-python3 bot.py
+python bot.py
