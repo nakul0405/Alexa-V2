@@ -89,9 +89,9 @@
 
 ## Developers & Contributors👨‍💻
 
- [![TG-V4MP1R3](https://github.com/TG-V4MP1R3.png?size=100)](https://github.com/TG-V4MP1R3) |
+ [![TG-Nakulrathod0405]( |
 ----|
-[TG-V4MP1R3](https://t.me/KP51107)  | 
+[TG-Nakulrathod0405](https://t.me/Nakulrathod0405)  | 
 Author: Developer, Base, Bug Fixes, Commits, Modules | 
 
 ##
