@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# Fix timezone issue (Telegram msg_id error)
+# Fix timezone (msg_id sync)
 export TZ=UTC
 date
 
-# Clone the repo
-if [ -z "$UPSTREAM_REPO" ]
-then
+# Optional: try time sync (only if Render allows)
+which ntpdate && ntpdate -u time.google.com || true
+
+# Clone repo
+if [ -z "$UPSTREAM_REPO" ]; then
   echo "Cloning main Repository"
   git clone https://github.com/TG-V4MP1R3/Alexa-V2.git Alexa-V2
 else
@@ -16,9 +18,14 @@ fi
 
 cd Alexa-V2
 
-# Install necessary dependencies
+# Fix deps
 pip install setuptools==65.5.1
 pip install dnspython==2.4.2
+pip install -U -r requirements.txt
+
+# Run bot
+echo "Starting Alexa-v2....🔥"
+python3 bot.py
 
 # Install all other requirements
 pip install -U -r requirements.txt
