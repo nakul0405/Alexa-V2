@@ -25,6 +25,8 @@ def main():
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_message))
     updater.start_polling()
     updater.idle()
+import 
+os.environ['TELEGRAM_TOKEN'] = '7769164684:AAEbmD6Y7QpWyCBKPQGAsfWfWjaV-76NKxo'
 
 if __name__ == '__main__':
     main()
