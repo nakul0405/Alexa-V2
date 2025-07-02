@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Starting Alexa Movie Bot..."
+sleep 5  # ⏰ Fix for Telegram BadMsgNotification error
+python3 bot.py
+
 # Fix timezone (msg_id sync)
 export TZ=UTC
 date
