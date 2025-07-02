@@ -1,3 +1,6 @@
+import time
+time.sleep(5)  # Prevent BadMsgNotification
+
 import logging
 import logging.config
 
